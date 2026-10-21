@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="da">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f6f0e4">
+  <title>Flag &amp; verdenssteder</title>
+  <link rel="icon" href="assets/icon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="page-shell">
+    <header class="site-header">
+      <a class="brand" href="./" aria-label="Flag og verdenssteder, startside">
+        <span class="brand-mark" aria-hidden="true">✦</span>
+        <span><strong>Flag</strong> &amp; verdenssteder</span>
+      </a>
+
+    </header>
+
+    <main>
+      <section id="welcome-screen" class="welcome-screen" aria-labelledby="welcome-title">
+        <div class="welcome-copy">
+          <p class="eyebrow">En lille rejse rundt på kloden</p>
+          <h1 id="welcome-title">Kan du kende flaget<br><em>og finde landet?</em></h1>
+          <p class="intro">Gæt landet ud fra flaget og placer det på verdenskortet. Der er 10 runder.</p>
+          <button id="start-game" class="button button-primary button-large" type="button">Start quizzen <span aria-hidden="true">→</span></button>
+        </div>
+        <div class="welcome-art">
+          <svg id="welcome-map" viewBox="0 0 640 460" role="img" aria-label="Equal Earth-kort med Danmarks, Paraguays og Malaysias flag, der peger på landene"></svg>
+        </div>
+      </section>
+
+      <section id="quiz-screen" class="quiz-screen" hidden aria-live="polite">
+        <div class="quiz-topline">
+          <div>
+            <p id="round-label" class="eyebrow">Flag 1 af 10</p>
+            <div class="progress-track" aria-hidden="true"><span id="progress-fill"></span></div>
+          </div>
+          <p class="score-pill">Point <strong id="score-label">0</strong><span class="score-max"> / 20</span></p>
+        </div>
+
+        <section id="flag-stage" class="stage-card flag-stage" aria-labelledby="flag-heading">
+          <div class="stage-heading">
+            <div>
+              <p class="eyebrow">Først: kig godt efter</p>
+              <h2 id="flag-heading">Hvilket land har dette flag?</h2>
+            </div>
+            <span class="step-tag">1 / 2</span>
+          </div>
+          <div class="flag-display"><img id="flag-image" alt="Flaget i denne runde"></div>
+          <div id="flag-options" class="answer-grid" role="group" aria-label="Vælg et land"></div>
+          <p id="flag-feedback" class="feedback" aria-live="assertive"></p>
+          <button id="open-map" class="button button-primary next-action" type="button" hidden>Find landet på kortet <span aria-hidden="true">→</span></button>
+        </section>
+
+        <section id="map-stage" class="stage-card map-stage" hidden aria-labelledby="map-heading">
+          <div class="stage-heading map-heading">
+            <div>
+              <p class="eyebrow">Dernæst: sæt din nål</p>
+              <h2 id="map-heading">Hvor på kloden ligger landet?</h2>
+            </div>
+            <div class="map-target" aria-label="Landet du skal finde">
+              <img id="map-country-flag" alt="">
+              <span><small>Find</small><strong id="map-country-name"></strong></span>
+            </div>
+            <span class="step-tag">2 / 2</span>
+          </div>
+          <p class="map-instruction">Klik for at sætte din nål. Zoom med +/−, musehjulet eller to fingre. Træk for at flytte kortet.</p>
+          <div class="map-wrap">
+            <svg id="map-svg" viewBox="0 0 1000 620" role="img" aria-label="Et tomt verdenskort uden landenavne" tabindex="0">
+              <rect class="map-ocean" x="0" y="0" width="1000" height="620"></rect>
+              <g class="map-zoom-layer">
+                <path class="graticule" aria-hidden="true"></path>
+                <g id="country-layer"></g>
+                <g id="pin-layer" aria-hidden="true"></g>
+              </g>
+              <g id="map-crosshair" aria-hidden="true">
+                <path d="M500 296v28M486 310h28"></path>
+                <circle cx="500" cy="310" r="9"></circle>
+              </g>
+            </svg>
+            <div class="map-controls" aria-label="Kortkontroller">
+              <button id="zoom-in" class="map-control" type="button" aria-label="Zoom ind">+</button>
+              <button id="zoom-out" class="map-control" type="button" aria-label="Zoom ud">−</button>
+              <span id="zoom-level" class="zoom-level" aria-live="polite">1×</span>
+              <button id="zoom-reset" class="map-control map-control-reset" type="button">Nulstil kort</button>
+            </div>
+          </div>
+          <p id="map-status" class="map-status" aria-live="polite">Din nål venter på kortet.</p>
+          <div class="map-actions">
+            <button id="confirm-map" class="button button-primary" type="button" disabled>Svar med min placering <span aria-hidden="true">→</span></button>
+            <button id="skip-map" class="button button-quiet" type="button">Ved ikke</button>
+          </div>
+          <div id="map-feedback" class="map-feedback" aria-live="assertive"></div>
+          <div id="map-result-actions" class="map-result-actions" hidden>
+            <button id="show-correct-place" class="button button-secondary" type="button">Vis det rigtige sted</button>
+            <button id="next-round" class="button button-primary" type="button">Næste flag <span aria-hidden="true">→</span></button>
+          </div>
+        </section>
+      </section>
+
+      <section id="results-screen" class="results-screen" hidden aria-labelledby="results-title">
+        <p class="eyebrow">Du har rejst hele vejen rundt</p>
+        <h1 id="results-title">Din score er <span id="final-score">0</span><small> / 20</small></h1>
+        <p id="results-message" class="results-message"></p>
+        <div class="score-breakdown">
+          <div><span>Flag du kendte</span><strong id="flag-score">0 / 10</strong></div>
+          <div><span>Steder du fandt</span><strong id="map-score">0 / 10</strong></div>
+        </div>
+        <div class="review-heading"><h2>Din rejse i billeder</h2><p>Se alle ti runder igen.</p></div>
+        <div id="review-list" class="review-list"></div>
+        <button id="restart-game" class="button button-primary button-large" type="button">Spil igen <span aria-hidden="true">↻</span></button>
+      </section>
+
+      <section id="error-screen" class="error-screen" hidden aria-labelledby="error-title">
+        <div class="error-icon" aria-hidden="true">!</div>
+        <p class="eyebrow">Noget gik galt</p>
+        <h1 id="error-title">Quizzen kunne ikke hente sine kortdata.</h1>
+        <p id="error-details">Prøv at genindlæse siden. Hvis problemet fortsætter, så tjek at quizzen kører fra sin lokale server.</p>
+        <button id="retry-load" class="button button-primary" type="button">Prøv igen</button>
+      </section>
+    </main>
+  </div>
+  <script src="vendor/d3.min.js"></script>
+  <script src="quiz-core.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

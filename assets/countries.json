@@ -1,0 +1,906 @@
+[
+  {
+    "code": "DK",
+    "name": "Danmark",
+    "mapPoint": [
+      9.018163,
+      55.966965
+    ]
+  },
+  {
+    "code": "SE",
+    "name": "Sverige",
+    "mapPoint": [
+      19.01705,
+      65.85918
+    ]
+  },
+  {
+    "code": "NO",
+    "name": "Norge",
+    "mapPoint": [
+      9.679975,
+      61.357092
+    ]
+  },
+  {
+    "code": "FI",
+    "name": "Finland",
+    "mapPoint": [
+      27.276449,
+      63.252361
+    ]
+  },
+  {
+    "code": "IS",
+    "name": "Island",
+    "mapPoint": [
+      -18.673711,
+      64.779286
+    ]
+  },
+  {
+    "code": "DE",
+    "name": "Tyskland",
+    "mapPoint": [
+      9.678348,
+      50.961733
+    ]
+  },
+  {
+    "code": "NL",
+    "name": "Nederlandene",
+    "mapPoint": [
+      5.61144,
+      52.422211
+    ]
+  },
+  {
+    "code": "BE",
+    "name": "Belgien",
+    "mapPoint": [
+      4.800448,
+      50.785392
+    ]
+  },
+  {
+    "code": "LU",
+    "name": "Luxembourg",
+    "mapPoint": [
+      6.07762,
+      49.733732
+    ]
+  },
+  {
+    "code": "FR",
+    "name": "Frankrig",
+    "mapPoint": [
+      2.552275,
+      46.696113
+    ]
+  },
+  {
+    "code": "ES",
+    "name": "Spanien",
+    "mapPoint": [
+      -3.464718,
+      40.090953
+    ]
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "mapPoint": [
+      -8.271754,
+      39.606675
+    ]
+  },
+  {
+    "code": "IT",
+    "name": "Italien",
+    "mapPoint": [
+      11.076907,
+      44.732482
+    ]
+  },
+  {
+    "code": "CH",
+    "name": "Schweiz",
+    "mapPoint": [
+      7.463965,
+      46.719114
+    ]
+  },
+  {
+    "code": "AT",
+    "name": "Østrig",
+    "mapPoint": [
+      14.130515,
+      47.518859
+    ]
+  },
+  {
+    "code": "IE",
+    "name": "Irland",
+    "mapPoint": [
+      -7.798588,
+      53.078726
+    ]
+  },
+  {
+    "code": "GB",
+    "name": "Storbritannien",
+    "mapPoint": [
+      -2.116346,
+      54.402739
+    ]
+  },
+  {
+    "code": "PL",
+    "name": "Polen",
+    "mapPoint": [
+      19.490468,
+      51.990316
+    ]
+  },
+  {
+    "code": "CZ",
+    "name": "Tjekkiet",
+    "mapPoint": [
+      15.377555,
+      49.882364
+    ]
+  },
+  {
+    "code": "SK",
+    "name": "Slovakiet",
+    "mapPoint": [
+      19.049868,
+      48.734044
+    ]
+  },
+  {
+    "code": "HU",
+    "name": "Ungarn",
+    "mapPoint": [
+      19.447867,
+      47.086841
+    ]
+  },
+  {
+    "code": "RO",
+    "name": "Rumænien",
+    "mapPoint": [
+      24.972624,
+      45.733237
+    ]
+  },
+  {
+    "code": "BG",
+    "name": "Bulgarien",
+    "mapPoint": [
+      25.15709,
+      42.508785
+    ]
+  },
+  {
+    "code": "GR",
+    "name": "Grækenland",
+    "mapPoint": [
+      21.72568,
+      39.492763
+    ]
+  },
+  {
+    "code": "HR",
+    "name": "Kroatien",
+    "mapPoint": [
+      16.37241,
+      45.805799
+    ]
+  },
+  {
+    "code": "SI",
+    "name": "Slovenien",
+    "mapPoint": [
+      14.915312,
+      46.06076
+    ]
+  },
+  {
+    "code": "BA",
+    "name": "Bosnien-Hercegovina",
+    "mapPoint": [
+      18.06841,
+      44.091051
+    ]
+  },
+  {
+    "code": "RS",
+    "name": "Serbien",
+    "mapPoint": [
+      20.787989,
+      44.189919
+    ]
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "mapPoint": [
+      19.143727,
+      42.803101
+    ]
+  },
+  {
+    "code": "MK",
+    "name": "Nordmakedonien",
+    "mapPoint": [
+      21.555839,
+      41.558223
+    ]
+  },
+  {
+    "code": "AL",
+    "name": "Albanien",
+    "mapPoint": [
+      20.11384,
+      40.654855
+    ]
+  },
+  {
+    "code": "EE",
+    "name": "Estland",
+    "mapPoint": [
+      25.867126,
+      58.724865
+    ]
+  },
+  {
+    "code": "LV",
+    "name": "Letland",
+    "mapPoint": [
+      25.458723,
+      57.066872
+    ]
+  },
+  {
+    "code": "LT",
+    "name": "Litauen",
+    "mapPoint": [
+      24.089932,
+      55.103703
+    ]
+  },
+  {
+    "code": "UA",
+    "name": "Ukraine",
+    "mapPoint": [
+      32.140865,
+      49.724739
+    ]
+  },
+  {
+    "code": "MD",
+    "name": "Moldova",
+    "mapPoint": [
+      28.487904,
+      47.434999
+    ]
+  },
+  {
+    "code": "TR",
+    "name": "Tyrkiet",
+    "mapPoint": [
+      34.508268,
+      39.345388
+    ]
+  },
+  {
+    "code": "CY",
+    "name": "Cypern",
+    "mapPoint": [
+      33.084182,
+      34.913329
+    ]
+  },
+  {
+    "code": "MT",
+    "name": "Malta",
+    "mapPoint": [
+      14.433005,
+      35.892886
+    ]
+  },
+  {
+    "code": "AD",
+    "name": "Andorra",
+    "mapPoint": [
+      1.539409,
+      42.547643
+    ]
+  },
+  {
+    "code": "MC",
+    "name": "Monaco",
+    "mapPoint": [
+      7.398291,
+      43.739652
+    ]
+  },
+  {
+    "code": "LI",
+    "name": "Liechtenstein",
+    "mapPoint": [
+      9.559439,
+      47.111405
+    ]
+  },
+  {
+    "code": "SM",
+    "name": "San Marino",
+    "mapPoint": [
+      12.441206,
+      43.933916
+    ]
+  },
+  {
+    "code": "VA",
+    "name": "Vatikanstaten",
+    "mapPoint": [
+      12.453418,
+      41.903323
+    ]
+  },
+  {
+    "code": "US",
+    "name": "USA",
+    "mapPoint": [
+      -97.482602,
+      39.538479
+    ]
+  },
+  {
+    "code": "CA",
+    "name": "Canada",
+    "mapPoint": [
+      -101.9107,
+      60.324287
+    ]
+  },
+  {
+    "code": "MX",
+    "name": "Mexico",
+    "mapPoint": [
+      -102.289448,
+      23.919988
+    ]
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "mapPoint": [
+      -84.077922,
+      10.0651
+    ]
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "mapPoint": [
+      -77.975855,
+      21.334024
+    ]
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "mapPoint": [
+      -77.318767,
+      18.137124
+    ]
+  },
+  {
+    "code": "DO",
+    "name": "Den Dominikanske Republik",
+    "mapPoint": [
+      -70.653998,
+      19.104137
+    ]
+  },
+  {
+    "code": "PA",
+    "name": "Panama",
+    "mapPoint": [
+      -80.352106,
+      8.72198
+    ]
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "mapPoint": [
+      -90.497134,
+      14.982133
+    ]
+  },
+  {
+    "code": "BR",
+    "name": "Brasilien",
+    "mapPoint": [
+      -49.55945,
+      -12.098687
+    ]
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "mapPoint": [
+      -64.173331,
+      -33.501159
+    ]
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "mapPoint": [
+      -72.318871,
+      -38.151771
+    ]
+  },
+  {
+    "code": "PE",
+    "name": "Peru",
+    "mapPoint": [
+      -72.90016,
+      -12.976679
+    ]
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "mapPoint": [
+      -73.174347,
+      3.373111
+    ]
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "mapPoint": [
+      -78.188375,
+      -1.259076
+    ]
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "mapPoint": [
+      -55.966942,
+      -32.961127
+    ]
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "mapPoint": [
+      -64.593433,
+      -16.666015
+    ]
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "mapPoint": [
+      -60.146394,
+      -21.674509
+    ]
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "mapPoint": [
+      -64.599381,
+      7.182476
+    ]
+  },
+  {
+    "code": "AU",
+    "name": "Australien",
+    "mapPoint": [
+      134.04972,
+      -24.129522
+    ]
+  },
+  {
+    "code": "NZ",
+    "name": "New Zealand",
+    "mapPoint": [
+      170.60232700889634,
+      -43.95947514884467
+    ]
+  },
+  {
+    "code": "FJ",
+    "name": "Fiji",
+    "mapPoint": [
+      177.975427,
+      -17.826099
+    ]
+  },
+  {
+    "code": "JP",
+    "name": "Japan",
+    "mapPoint": [
+      138.44217,
+      36.142538
+    ]
+  },
+  {
+    "code": "CN",
+    "name": "Kina",
+    "mapPoint": [
+      106.337289,
+      32.498178
+    ]
+  },
+  {
+    "code": "KR",
+    "name": "Sydkorea",
+    "mapPoint": [
+      128.129504,
+      36.384924
+    ]
+  },
+  {
+    "code": "MN",
+    "name": "Mongoliet",
+    "mapPoint": [
+      104.150405,
+      45.997488
+    ]
+  },
+  {
+    "code": "IN",
+    "name": "Indien",
+    "mapPoint": [
+      79.358105,
+      22.686852
+    ]
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "mapPoint": [
+      83.639914,
+      28.297925
+    ]
+  },
+  {
+    "code": "BT",
+    "name": "Bhutan",
+    "mapPoint": [
+      90.040294,
+      27.536685
+    ]
+  },
+  {
+    "code": "BD",
+    "name": "Bangladesh",
+    "mapPoint": [
+      89.684963,
+      24.214956
+    ]
+  },
+  {
+    "code": "PK",
+    "name": "Pakistan",
+    "mapPoint": [
+      68.545632,
+      29.328389
+    ]
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "mapPoint": [
+      80.704823,
+      7.581097
+    ]
+  },
+  {
+    "code": "MV",
+    "name": "Maldiverne",
+    "mapPoint": [
+      73.507554,
+      4.174441
+    ]
+  },
+  {
+    "code": "TH",
+    "name": "Thailand",
+    "mapPoint": [
+      101.073198,
+      15.45974
+    ]
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "mapPoint": [
+      105.387292,
+      21.715416
+    ]
+  },
+  {
+    "code": "KH",
+    "name": "Cambodja",
+    "mapPoint": [
+      104.50487,
+      12.647584
+    ]
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "mapPoint": [
+      102.533912,
+      19.431821
+    ]
+  },
+  {
+    "code": "MY",
+    "name": "Malaysia",
+    "mapPoint": [
+      113.83708,
+      2.528667
+    ]
+  },
+  {
+    "code": "SG",
+    "name": "Singapore",
+    "mapPoint": [
+      103.816925,
+      1.366587
+    ]
+  },
+  {
+    "code": "ID",
+    "name": "Indonesien",
+    "mapPoint": [
+      101.892949,
+      -0.954404
+    ]
+  },
+  {
+    "code": "PH",
+    "name": "Filippinerne",
+    "mapPoint": [
+      122.465,
+      11.198
+    ]
+  },
+  {
+    "code": "TL",
+    "name": "Timor-Leste",
+    "mapPoint": [
+      125.854679,
+      -8.803705
+    ]
+  },
+  {
+    "code": "KZ",
+    "name": "Kasakhstan",
+    "mapPoint": [
+      68.685548,
+      49.054149
+    ]
+  },
+  {
+    "code": "UZ",
+    "name": "Usbekistan",
+    "mapPoint": [
+      64.005429,
+      41.693603
+    ]
+  },
+  {
+    "code": "AE",
+    "name": "De Forenede Arabiske Emirater",
+    "mapPoint": [
+      54.547256,
+      23.466285
+    ]
+  },
+  {
+    "code": "SA",
+    "name": "Saudi-Arabien",
+    "mapPoint": [
+      44.6996,
+      23.806908
+    ]
+  },
+  {
+    "code": "JO",
+    "name": "Jordan",
+    "mapPoint": [
+      36.375991,
+      30.805025
+    ]
+  },
+  {
+    "code": "OM",
+    "name": "Oman",
+    "mapPoint": [
+      57.336553,
+      22.120427
+    ]
+  },
+  {
+    "code": "QA",
+    "name": "Qatar",
+    "mapPoint": [
+      51.143509,
+      25.237383
+    ]
+  },
+  {
+    "code": "BH",
+    "name": "Bahrain",
+    "mapPoint": [
+      50.554816,
+      26.055972
+    ]
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "mapPoint": [
+      34.847915,
+      30.911148
+    ]
+  },
+  {
+    "code": "EG",
+    "name": "Egypten",
+    "mapPoint": [
+      29.445837,
+      26.186173
+    ]
+  },
+  {
+    "code": "MA",
+    "name": "Marokko",
+    "mapPoint": [
+      -7.187296,
+      31.650723
+    ]
+  },
+  {
+    "code": "TN",
+    "name": "Tunesien",
+    "mapPoint": [
+      9.007881,
+      33.687263
+    ]
+  },
+  {
+    "code": "DZ",
+    "name": "Algeriet",
+    "mapPoint": [
+      2.808241,
+      27.397406
+    ]
+  },
+  {
+    "code": "KE",
+    "name": "Kenya",
+    "mapPoint": [
+      37.907632,
+      0.549043
+    ]
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "mapPoint": [
+      34.959183,
+      -6.051866
+    ]
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "mapPoint": [
+      32.948555,
+      1.972589
+    ]
+  },
+  {
+    "code": "ZA",
+    "name": "Sydafrika",
+    "mapPoint": [
+      23.665734,
+      -29.708776
+    ]
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "mapPoint": [
+      17.108166,
+      -20.575298
+    ]
+  },
+  {
+    "code": "BW",
+    "name": "Botswana",
+    "mapPoint": [
+      24.179216,
+      -22.102634
+    ]
+  },
+  {
+    "code": "MG",
+    "name": "Madagaskar",
+    "mapPoint": [
+      46.704241,
+      -18.628288
+    ]
+  },
+  {
+    "code": "MU",
+    "name": "Mauritius",
+    "mapPoint": [
+      57.565848,
+      -20.299506
+    ]
+  },
+  {
+    "code": "SC",
+    "name": "Seychellerne",
+    "mapPoint": [
+      55.480175,
+      -4.676659
+    ]
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "mapPoint": [
+      -1.036941,
+      7.717639
+    ]
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "mapPoint": [
+      7.50322,
+      9.439799
+    ]
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "mapPoint": [
+      -14.778586,
+      15.138125
+    ]
+  },
+  {
+    "code": "RW",
+    "name": "Rwanda",
+    "mapPoint": [
+      30.103894,
+      -1.897196
+    ]
+  },
+  {
+    "code": "ET",
+    "name": "Etiopien",
+    "mapPoint": [
+      39.0886,
+      8.032795
+    ]
+  }
+]
